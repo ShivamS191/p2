@@ -13,8 +13,8 @@ app = FastAPI()
 
 # Configuration
 SECRET = "hello"  # Your secret
-EMAIL = "your-email@example.com"  # Replace with your email
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Set this as environment variable
+EMAIL = "23f1001763@study.ds.iitm.ac.in"  # Replace with your email
+OPENAI_API_KEY = os.getenv("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjEwMDE3NjNAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.ZBrMvwiHRHgoB6fwC_xZPeJAlt_cmGIqb3A9p0dPTTw")  # Set this as environment variable
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
